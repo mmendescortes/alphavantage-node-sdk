@@ -15,7 +15,7 @@ npm install alphavantage-sdk
 ### Require the library
 
 ```
-const alphaVantage = require('./alphavantage');
+const alphaVantage = require('alphavantage-sdk');
 ```
 
 ### Set your API key
