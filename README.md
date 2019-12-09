@@ -12,10 +12,6 @@ The library is available on NPM for quick deploy, following instructions will he
 npm install alphavantage-sdk
 ```
 
-## Running the tests
-
-Explain how to run the automated tests for this system
-
 ### Require the library
 
 ```
@@ -25,39 +21,81 @@ const alphaVantage = require('./alphavantage');
 ### Set your API key
 
 ```
-alphaVantage.key = 'YOUR_KEY';
+alphaVantage.key = 'demo';
 ```
 
-## Functions
+## Stock Time Series
 
-Add additional notes about how to deploy this on a live system
+### timeSeriesDaily(equity)
+
+```
+alphaVantage.timeSeriesDaily('MSFT').then(r=>console.log(r));
+```
+### timeSeriesDailyAdjusted(equity)
+
+```
+// Retrieve AZUL4.SAO data
+alphaVantage.timeSeriesDailyAdjusted('MSFT').then(r=>console.log(r));
+```
+### timeSeriesDailyFull(equity)
+
+```
+alphaVantage.timeSeriesDailyFull('MSFT').then(r=>console.log(r));
+```
+### timeSeriesDailyAdjustedFull(equity)
+
+```
+alphaVantage.timeSeriesDailyAdjustedFull('MSFT').then(r=>console.log(r));
+```
+### timeSeriesWeekly(equity)
+
+```
+// Retrieve AZUL4.SAO data
+alphaVantage.timeSeriesWeekly('MSFT').then(r=>console.log(r));
+```
+### timeSeriesWeeklyAdjusted(equity)
+
+```
+// Retrieve AZUL4.SAO data
+alphaVantage.timeSeriesWeeklyAdjusted('MSFT').then(r=>console.log(r));
+```
+### timeSeriesMonthly(equity)
+
+```
+// Retrieve AZUL4.SAO data
+alphaVantage.timeSeriesMonthly('MSFT').then(r=>console.log(r));
+```
+### timeSeriesMonthlyAdjusted(equity)
+
+```
+// Retrieve AZUL4.SAO data
+alphaVantage.timeSeriesMonthlyAdjusted('MSFT').then(r=>console.log(r));
+```
 
 ## Built With
 
-* [Node](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Alpha Vantage API](https://maven.apache.org/) - Dependency Management
+* [NodeJS](https://nodejs.org/) - The JavaScript framework used.
+* [Alpha Vantage API](https://www.alphavantage.co/) - Free realtime API for historical stock, forex, digital currency data and more than 50 technical indicators. 
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to us.
+Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to me.
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+I use [git](https://git-scm.com/) itself for versioning. For the versions available, see the [tags on this repository](https://github.com/mmendescortes/alphavantage-node-sdk/tags). 
 
-## Authors
+## Author
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* **Mateus M. Côrtes** - *Initial work* - [alphavantage-node-sdk](https://github.com/mmendescortes/alphavantage-node-sdk/)
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+See also the list of [contributors](https://github.com/mmendescortes/alphavantage-node-sdk/contributors/) who participated in this project.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Mozilla Public License version 2.0 - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
 
-* Hat tip to anyone whose code was used
-* Inspiration
-* etc
+* Alpha Vantage for providing an API free of charge.
 
