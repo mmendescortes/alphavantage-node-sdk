@@ -24,7 +24,7 @@ const alphaVantage = require('./alphavantage');
 alphaVantage.key = 'demo';
 ```
 
-## Stock Time Series
+## Stock Time Series Functions
 
 ### timeSeriesDaily(equity)
 
