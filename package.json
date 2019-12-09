@@ -1,0 +1,6 @@
+{
+  "name": "alphavantage-sdk",
+  "version": "0.0.1",
+  "description": "SDK for consuming alphavantage.co API on NodeJS.",
+  "main": "alphavantage.js"
+}
