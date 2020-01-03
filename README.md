@@ -34,7 +34,6 @@ alphaVantage.timeSeriesDaily('MSFT').then(r=>console.log(r));
 ### timeSeriesDailyAdjusted(equity)
 
 ```
-// Retrieve AZUL4.SAO data
 alphaVantage.timeSeriesDailyAdjusted('MSFT').then(r=>console.log(r));
 ```
 ### timeSeriesDailyFull(equity)
@@ -50,25 +49,21 @@ alphaVantage.timeSeriesDailyAdjustedFull('MSFT').then(r=>console.log(r));
 ### timeSeriesWeekly(equity)
 
 ```
-// Retrieve AZUL4.SAO data
 alphaVantage.timeSeriesWeekly('MSFT').then(r=>console.log(r));
 ```
 ### timeSeriesWeeklyAdjusted(equity)
 
 ```
-// Retrieve AZUL4.SAO data
 alphaVantage.timeSeriesWeeklyAdjusted('MSFT').then(r=>console.log(r));
 ```
 ### timeSeriesMonthly(equity)
 
 ```
-// Retrieve AZUL4.SAO data
 alphaVantage.timeSeriesMonthly('MSFT').then(r=>console.log(r));
 ```
 ### timeSeriesMonthlyAdjusted(equity)
 
 ```
-// Retrieve AZUL4.SAO data
 alphaVantage.timeSeriesMonthlyAdjusted('MSFT').then(r=>console.log(r));
 ```
 
