@@ -79,11 +79,11 @@ alphaVantage.timeSeriesMonthlyAdjusted('MSFT').then(r=>console.log(r));
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to me.
+Please read [CONTRIBUTING.md](https://github.com/mmendescortes/alphavantage-node-sdk/blob/master/CONTRIBUTING.md) for details on our standards, rules, and the process for submitting pull requests to me.
 
 ## Versioning
 
-I use [git](https://git-scm.com/) itself for versioning. For the versions available, see the [tags on this repository](https://github.com/mmendescortes/alphavantage-node-sdk/tags). 
+For the versions available, see the [tags on this repository](https://github.com/mmendescortes/alphavantage-node-sdk/tags). 
 
 ## Author
 
@@ -93,7 +93,7 @@ See also the list of [contributors](https://github.com/mmendescortes/alphavantag
 
 ## License
 
-This project is licensed under the Mozilla Public License version 2.0 - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the Mozilla Public License version 2.0 - see the [LICENSE.md](https://github.com/mmendescortes/alphavantage-node-sdk/blob/master/LICENSE.md) file for details
 
 ## Acknowledgments
 
